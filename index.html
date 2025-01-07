@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>IT Support</title>
 </head>
-<body class="bg-[#FAFAFA]">
+<body class="bg-[#FAFAFA] dark:bg-gray-900" >
 <!--This is Header Section-->
-<Header class="md:mx-14 mx-10 md:py-4 py-2 px-2 bg-white ">
+<Header class="md:mx-14 mx-10 md:py-4 py-2 px-2 bg-white dark:bg-gray-900 dark:text-white ">
     <nav class="container mx-auto flex items-center justify-between">
         <div>
-            <img src="photos/c4u full logo_2022 1 (1) - Copy.png" alt="">
+            <img src="photos/c4u full logo_2022 1 (1) - Copy.png"  alt="">
         </div>
         <div class="">
             <ul class="flex md:flex-row flex-col items-center gap-2 md:gap-4">
@@ -23,8 +23,9 @@
             </ul>
         </div>
         <div class=" flex items-center gap-2 md:gap-6 ">
-            <button class="bg-[#F44335] rounded-md md:px-[16px] px-[8px] md:py-[10px] text-white md:font-medium hover:bg-[#9e241c] transition-all hover:scale-105 duration-300  ">Register interest</button>
-            <button class="cap"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hover:scale-105 transition-all duration-300 cursor-pointer">
+            
+            <button class=" bg-[#F44335] rounded-md md:px-[16px] px-[8px] md:py-[10px] text-white md:font-medium hover:bg-[#9e241c] transition-all hover:scale-105 duration-300  "> Register interest</button>
+            <button class="cap" id="switch"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hover:scale-105 transition-all duration-300 cursor-pointer dark:text-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
               </svg>
               </button>
@@ -32,21 +33,21 @@
     </nav>
 </Header>
  <!--Discover Sign up Section-->
- <section class="bg-[#FAFAFA] grid grid-cols-12  mb-1 ">
+ <section class="bg-[#FAFAFA] grid grid-cols-12  mb-1  dark:bg-gray-900 ">
    <section class="md:col-span-6 col-span-12 mx-auto  container">
-    <div class="ml-24  w-full ">
+    <div class="md:ml-24 ml-10  w-full dark:text-white">
         <h6 class="font-medium md:text-lg text-sm  ">Discover <span class="text-[#F44335]">-</span>Interact <span class="text-[#F44335]">-</span>Engage</h6>
 
         <h1 class="md:text-7xl text-4xl font-bold pt-5 ">Google <br> <span class="text-[#F44335] underline">IT Support <br></span> Certificate</h1>
 
-        <p class="md:pt-18 pt-10 cap font-medium md:text-lg text-sm ">This is your path to a career in IT. In this program, you’ll learn in- <br>demand skills with no degree or experience required. </p>
+        <p class="md:pt-18 pt-10 cap font-medium md:text-lg text-sm dark:text-white">This is your path to a career in IT. In this program, you’ll learn in- <br>demand skills with no degree or experience required. </p>
 
         <div class=" md:pt-18 pt-10 flex gap-5 items-center">
-            <span class="text-[#00FF84] font-semibold text-lg md:text-2xl  ">438 <br><p class="text-[#2D3142] text-sm font-normal md:font-medium">Videos</p></span>
-            <span class="caption">151 <br><p class="cap">Readings</p></span>
-            <span class="caption">108 <br><p class="cap">Quizzes</p></span>
-            <span class="caption">24 <br><p class="cap">Exercises</p></span>
-            <span class="caption">4 <br><p class="cap">Assigments</p></span>
+            <span class="text-[#00FF84] font-semibold text-lg md:text-2xl  ">438 <br><p class="text-[#2D3142] text-sm font-normal md:font-medium dark:text-white">Videos</p></span>
+            <span class="caption">151 <br><p class="cap dark:text-white">Readings</p></span>
+            <span class="caption">108 <br><p class="cap dark:text-white">Quizzes</p></span>
+            <span class="caption">24 <br><p class="cap dark:text-white">Exercises</p></span>
+            <span class="caption">4 <br><p class="cap dark:text-white">Assigments</p></span>
         </div>
         <div class="pt-10 pb-2 space-x-3 ">
             <button class="button bg-[#F44335]  hover:bg-[#d32f23] text-white">Sign up</button>
@@ -62,7 +63,7 @@
    </section>
 
    <section class="md:col-span-6 col-span-12 md:mr-6 ">
-    <div class="container ml-24 w-full">
+    <div class="container md:ml-24 ml-10 w-full">
         <img src="photos/Group 1964 - Copy.png" alt="">
 
     </div>
@@ -72,7 +73,7 @@
  </section>
 
  <!--Google Section-->
-<section class="grid grid-cols-12 bg-white items-center px-10    ">
+<section class="grid grid-cols-12 bg-white items-center px-10  dark:bg-gray-900 dark:text-white    ">
 
   <section class="md:col-span-3 col-span-12  items-center md:border-r-2 border-[#D1D3D4] mx-auto">
     <p class="md:text-3xl text-5xl font-medium">Pave your path to career success by gaining  a  professional  Google certificate with the support of C4U</p>
@@ -103,7 +104,7 @@
 </section>
 
 <!--what we learn Section-->
-<section class="sectionm gap-2">
+<section class="sectionm gap-2  dark:bg-gray-900 dark:text-white">
     <section class="sectionl">
     <div class=" divl">
         <div class="border-b border-[#D1D3D4] ">
@@ -169,7 +170,7 @@
 
   <!--Job Section-->
 
-  <section class="sectionm gap-2">
+  <section class="sectionm gap-2  dark:bg-gray-900 dark:text-white">
     <section class="sectionl">
     <div class="divl w-full">
         <div class="border-b border-[#D1D3D4]">
@@ -249,13 +250,13 @@
      
   </section>
   <!--There are professional Section-->
-     <div class="flex items-center container mt-20 pt-5 pl-10 bg-white">
-     <div class="space-y-10">
+     <div class="flex items-center container mt-20 pt-5 pl-10 bg-white  dark:bg-gray-900 dark:text-white relative ">
+     <div class="space-y-10 ">
         <h1 class="header md:text-7xl text-4xl font-bold ">
             There are 5 Courses in this <br> Professional Certificate
         </h1>
 
-        <div class=" relative space-y-5 space-x-10 border-b-2   border-[rgb(249,204,199)] pb-10">
+        <div class="space-y-5 space-x-10 border-b-2   border-[rgb(249,204,199)] pb-10">
             <button class="tag1  bg-[#00FF84] border-[#232323]" >
                 Course 1
             </button>
@@ -272,18 +273,22 @@
                 Course 5
             </button>
         </div>
+
+       
       </div>
       
-        <img src="photos/Group 238902.png" class=" float-end" alt="">
-      
+        
 
-
+      <div class="absolute top-0 right-0">
+        <img src="photos/Group 238902.png" class="" alt="">
+      </div>
+    
 
     </div>
     <!--1st card Section-->
-<section class="sectionmm p-5  ">
+<section class="sectionmm p-5   dark:bg-gray-900 dark:text-white   z-10 ">
     <section class="sectionll  ">
-    <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  ">
+    <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  dark:bg-gray-900 ">
         <h6 class="text-xl  font-medium text-[#00FF84]">Course 1</h6>
        <h1 class=" text-white text-3xl md:text-5xl font-semibold  ">Technical <br> Support <br> Fundamentals</h1>
      <div class="flex items-center pb-6 gap-20 md:gap-10">
@@ -316,7 +321,7 @@
 
  
     <section class="sectionrr">
-   <div class="divrr ">
+   <div class="divrr  dark:bg-gray-900">
       <div class="space-y-5 pt-8 pl-10">
         <h2 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium ">About this course</h2>
         <p class=" md:text-lg text-sm font-medium">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program. </p>
@@ -374,12 +379,12 @@
         <div class="">
             <h4 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium">Information</h4>
 
-            <ul class="list-disc list-inside text-3xl text-[#F9CCC7]">
-                <li><span class="text-black cardf ">Flexible deadlines</span></li>
-                <li><span class="text-black cardf">Shareable Certificate</span></li>
-                <li><span class="text-black cardf">100% online</span></li>
-                <li><span class="text-black cardf">Beginner Level</span></li>
-                <li><span class="text-black cardf">Approx. 20 hours to complete</span></li>
+            <ul class="list-disc list-inside text-3xl text-[#F9CCC7] dark:text-white">
+                <li><span class="text-black cardf dark:text-white">Flexible deadlines</span></li>
+                <li><span class="text-black cardf dark:text-white">Shareable Certificate</span></li>
+                <li><span class="text-black cardf dark:text-white">100% online</span></li>
+                <li><span class="text-black cardf dark:text-white">Beginner Level</span></li>
+                <li><span class="text-black cardf dark:text-white">Approx. 20 hours to complete</span></li>
                 
             </ul>
 
@@ -399,16 +404,23 @@
 
 
    </div>
-    </section>   
+    </section>
+    
+    
  
      
   </section>
+  
 
+ <div class="md:-mt-40 md:-mb-20 -my-20 mx-12">
+  <img src="photos/Connector Vector.png" class="w-full " alt="">
+
+ </div>
   
    <!--2nd card Section-->
-<section class="sectionmm p-5">
+<section class="sectionmm p-5  dark:bg-gray-900 dark:text-white">
   <section class=" sectionll ">
-  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  ">
+  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full dark:bg-gray-900 ">
       <h6 class="text-xl  font-medium text-[#00FF84]">Course 2</h6>
      <h1 class=" text-white text-3xl md:text-5xl font-semibold  ">The Bits and <br> Bytes of <br>Computer <br>Networking</h1>
    <div class="flex items-center pb-6 gap-20 md:gap-10">
@@ -441,7 +453,7 @@
 
 
   <section class="sectionrr">
- <div class="divrr">
+ <div class="divrr dark:bg-gray-900">
     <div class="space-y-5 pt-8 pl-10">
       <h2 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium  ">About this course</h2>
       <p class=" md:text-lg text-sm font-medium">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. 
@@ -499,11 +511,11 @@
           <h4 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium">Information</h4>
 
           <ul class="list-disc list-inside text-3xl text-[#F9CCC7]">
-              <li><span class="text-black cardf">Flexible deadlines</span></li>
-              <li><span class="text-black cardf">Shareable Certificate</span></li>
-              <li><span class="text-black cardf">100% online</span></li>
-              <li><span class="text-black cardf">Beginner Level</span></li>
-              <li><span class="text-black cardf">Approx. 25 hours to complete</span></li>
+              <li><span class="text-black cardf dark:text-white">Flexible deadlines</span></li>
+              <li><span class="text-black cardf dark:text-white">Shareable Certificate</span></li>
+              <li><span class="text-black cardf dark:text-white">100% online</span></li>
+              <li><span class="text-black cardf dark:text-white">Beginner Level</span></li>
+              <li><span class="text-black cardf dark:text-white">Approx. 25 hours to complete</span></li>
               
           </ul>
 
@@ -528,14 +540,16 @@
    
 </section>
 
+<div class="md:-mt-40 md:-mb-20 -my-20 mx-12">
+  <img src="photos/Connector Vector (1).png" class="w-full " alt="">
+
+ </div>
+
   
-
-   
-
- <!--3rd card Section-->
- <section class="sectionmm p-5  ">
+<!--3rd card Section-->
+ <section class="sectionmm p-5 dark:bg-gray-900 dark:text-white  ">
   <section class="sectionll  ">
-  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  ">
+  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full dark:bg-gray-900 ">
       <h6 class="text-xl  font-medium text-[#00FF84]">Course 3</h6>
      <h1 class=" text-white text-3xl md:text-5xl font-semibold  ">Operating <br> Support and <br>You:Becoming <br>a Power User</h1>
    <div class="flex items-center pb-6 gap-20 md:gap-10">
@@ -568,7 +582,7 @@
 
 
   <section class="sectionrr">
- <div class="divrr ">
+ <div class="divrr dark:bg-gray-900 ">
     <div class="space-y-5 pt-8 pl-10">
       <h2 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium ">About this course</h2>
       <p class=" md:text-lg text-sm font-medium">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program. </p>
@@ -627,11 +641,11 @@
           <h4 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium">Information</h4>
 
           <ul class="list-disc list-inside text-3xl text-[#F9CCC7]">
-              <li><span class="text-black cardf ">Flexible deadlines</span></li>
-              <li><span class="text-black cardf">Shareable Certificate</span></li>
-              <li><span class="text-black cardf">100% online</span></li>
-              <li><span class="text-black cardf">Beginner Level</span></li>
-              <li><span class="text-black cardf">Approx. 20 hours to complete</span></li>
+              <li><span class="text-black cardf dark:text-white">Flexible deadlines</span></li>
+              <li><span class="text-black cardf dark:text-white">Shareable Certificate</span></li>
+              <li><span class="text-black cardf dark:text-white">100% online</span></li>
+              <li><span class="text-black cardf dark:text-white">Beginner Level</span></li>
+              <li><span class="text-black cardf dark:text-white">Approx. 20 hours to complete</span></li>
               
           </ul>
 
@@ -656,11 +670,16 @@
    
 </section>
 
+<div class="md:-mt-40 md:-mb-20 -my-20 mx-12">
+  <img src="photos/Connector Vector (2).png" class="w-full " alt="">
+
+ </div>
+
 
 <!--4th card Section-->
-<section class="sectionmm p-5  ">
+<section class="sectionmm p-5 dark:bg-gray-900 dark:text-white  ">
   <section class="sectionll  ">
-  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  ">
+  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full dark:bg-gray-900 ">
       <h6 class="text-xl  font-medium text-[#00FF84]">Course 4</h6>
      <h1 class=" text-white text-3xl md:text-5xl font-semibold  ">System <br> Administration <br>and IT <br>Infrastructure <br>Services</h1>
    <div class="flex items-center pb-6 gap-20 md:gap-10">
@@ -693,7 +712,7 @@
 
 
   <section class="sectionrr">
- <div class="divrr ">
+ <div class="divrr dark:bg-gray-900">
     <div class="space-y-5 pt-8 pl-10">
       <h2 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium ">About this course</h2>
       <p class=" md:text-lg text-sm font-medium">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program. </p>
@@ -752,11 +771,11 @@
           <h4 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium">Information</h4>
 
           <ul class="list-disc list-inside text-3xl text-[#F9CCC7]">
-              <li><span class="text-black cardf ">Flexible deadlines</span></li>
-              <li><span class="text-black cardf">Shareable Certificate</span></li>
-              <li><span class="text-black cardf">100% online</span></li>
-              <li><span class="text-black cardf">Beginner Level</span></li>
-              <li><span class="text-black cardf">Approx. 20 hours to complete</span></li>
+              <li><span class="text-black cardf dark:text-white">Flexible deadlines</span></li>
+              <li><span class="text-black cardf dark:text-white">Shareable Certificate</span></li>
+              <li><span class="text-black cardf dark:text-white">100% online</span></li>
+              <li><span class="text-black cardf dark:text-white">Beginner Level</span></li>
+              <li><span class="text-black cardf dark:text-white">Approx. 20 hours to complete</span></li>
               
           </ul>
 
@@ -781,10 +800,15 @@
    
 </section>
 
+<div class="md:-mt-40 md:-mb-20 -my-20 mx-12">
+  <img src="photos/Connector Vector (3).png" class="w-full " alt="">
+
+ </div>
+
 <!--5th card Section-->
-<section class="sectionmm p-5  ">
+<section class="sectionmm p-5 dark:bg-gray-900 dark:text-white">
   <section class="sectionll  ">
-  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full  ">
+  <div class=" bg-[#2D3142] divll space-y-5 md:space-y-10 w-full dark:bg-gray-900  ">
       <h6 class="text-xl  font-medium text-[#00FF84]">Course 5</h6>
      <h1 class=" text-white text-3xl md:text-5xl font-semibold  ">IT Security: <br>Defense <br>agains the <br>digital dark arts</h1>
    <div class="flex items-center pb-6 gap-20 md:gap-10">
@@ -817,7 +841,7 @@
 
 
   <section class="sectionrr">
- <div class="divrr ">
+ <div class="divrr dark:bg-gray-900">
     <div class="space-y-5 pt-8 pl-10">
       <h2 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium ">About this course</h2>
       <p class=" md:text-lg text-sm font-medium">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program. </p>
@@ -876,11 +900,11 @@
           <h4 class="text-[#F9CCC7] text-2xl md:text-4xl font-medium">Information</h4>
 
           <ul class="list-disc list-inside text-3xl text-[#F9CCC7]">
-              <li><span class="text-black cardf ">Flexible deadlines</span></li>
-              <li><span class="text-black cardf">Shareable Certificate</span></li>
-              <li><span class="text-black cardf">100% online</span></li>
-              <li><span class="text-black cardf">Beginner Level</span></li>
-              <li><span class="text-black cardf">Approx. 20 hours to complete</span></li>
+              <li><span class="text-black cardf  dark:text-white">Flexible deadlines</span></li>
+              <li><span class="text-black cardf  dark:text-white">Shareable Certificate</span></li>
+              <li><span class="text-black cardf  dark:text-white">100% online</span></li>
+              <li><span class="text-black cardf  dark:text-white">Beginner Level</span></li>
+              <li><span class="text-black cardf dark:text-white">Approx. 20 hours to complete</span></li>
               
           </ul>
 
@@ -922,10 +946,10 @@
 
   <!--Footer Section-->
  <footer>
-    <div class="relative">
+    <div class="relative  ">
         <img src="photos/brooke-cagle-g1Kr4Ozfoac-unsplash 2.png" class="w-full " alt="">
 
-        <div class="md:space-y-10 space-y-2 w-[400px] h-[250px] md:w-[690px] md:h-[535px] rounded-3xl shadow-lg md:m-10 absolute bg-white md:left-16 md:top-3 top-0 left-0 md:px-10 md:py-10">
+        <div class="md:space-y-10 space-y-2 w-[400px] h-[250px] md:w-[690px] md:h-[535px] rounded-3xl shadow-lg md:m-10 absolute bg-white md:left-16 md:top-3 top-0 left-0 md:px-10 md:py-10 ">
             <img src="photos/“ (1).png" class=" md:h-14 md:w-14 h-5 w-5" alt="">
             <h1 class="font-bold md:text-4xl text-xl">I worked in retail and needed to make a change. The certificate is really designed for you to go at your own pace. This is something that anybody can do</h1>
 
@@ -934,10 +958,10 @@
     </div>
 
 
-    <div class="px-16 pl-24 pt-10 py-20 flex md:flex-row flex-col items-center justify-between border-b border-[#858484]">
-       <div class="space-y-8">
+    <div class="px-16 pl-24 pt-10 py-20 flex md:flex-row flex-col items-center justify-between border-b border-[#858484] dark:text-white">
+       <div class="space-y-8 md:pb-0 pb-10">
         <img src="photos/c4u full logo_2022 1 (3).png" alt="">
-        <ul class="footul">
+        <ul class="footul dark:text-white">
             <li>Level39</li>
             <li>One Canada Square,</li>
             <li>Canary Wharf</li>
@@ -945,36 +969,36 @@
             <li>E145AB</li>
         </ul>
        </div>
-       <div class="space-y-8">
+       <div class="space-y-8 md:pb-0 pb-10">
         <h4 class="foot">Home</h4>
-        <ul class="footul">
+        <ul class="footul dark:text-white">
             <li>Collaborations</li>
             <li>Statistics</li>
             <li>How It Works</li>
             <li>Testimonials</li>
         </ul>
        </div>
-       <div class="space-y-8">
+       <div class="space-y-8 md:pb-0 pb-10">
         <h4 class="foot">About Us</h4>
-        <ul class="footul">
+        <ul class="footul dark:text-white">
             <li>Who We Are </li>
             <li>Mission Statement</li>
             <li>Our Vision</li>
             <li>The Team</li>
         </ul>
        </div>
-       <div class="space-y-8">
+       <div class="space-y-8 md:pb-0 pb-10">
         <h4 class="foot">Upskill</h4>
-        <ul class="footul">
+        <ul class="footul dark:text-white">
             <li>It Support</li>
             <li>Project Management</li>
             <li>Data Analysis</li>
             <li>Ux Design</li>
         </ul>
        </div>
-       <div class="space-y-8">
+       <div class="space-y-8 md:pb-0 pb-10  ">
         <h4 class="foot">Contact Us</h4>
-        <ul class="footul">
+        <ul class="footul dark:text-white">
             <li>Your message</li>
             <li>Email</li>
             <li>Phone number</li>
@@ -987,7 +1011,7 @@
 
 
     </div>
-    <p class="text-xs md:text-sm text-center pb-8 pt-8">Copyright 2022 Creatives For You LTD</p>
+    <p class="text-xs md:text-sm text-center pb-8 pt-8 dark:text-white">Copyright 2022 Creatives For You LTD</p>
 
  </footer>
 
@@ -1010,7 +1034,12 @@
 
 
 
+ <script>
+  const htmlTag = document.getElementById("htmlTag");
+  document.getElementById("switch").addEventListener("click", function () {htmlTag.classList.toggle("dark");
 
+  });
+</script>
     
 </body>
 </html>
