@@ -12,16 +12,16 @@
     }
 
     .tag{
-        @apply border-2 border-[#F44335] rounded-xl px-3 hover:scale-105 transition-all duration-300 cursor-pointer md:text-lg text-sm  ;
+        @apply border-2 border-[#F44335] rounded-xl px-3 md:px-7 hover:scale-105 transition-all duration-300 cursor-pointer md:text-xl text-sm  ;
     }
     .text{
         @apply md:text-2xl md:font-medium text-xl font-medium ;
     }
     .header{
-        @apply md:text-4xl text-2xl font-bold;
+        @apply md:text-5xl text-2xl font-bold;
     }
     .tag1{
-        @apply border-2  rounded-xl md:rounded-3xl px-3 md:px-12 md:py-3 hover:scale-105 transition-all duration-300 cursor-pointer md:text-2xl text-sm uppercase   ;
+        @apply border-2  rounded-2xl md:rounded-3xl px-6 md:px-12 md:py-3 py-2 hover:scale-105 transition-all duration-300 cursor-pointer md:text-2xl text-lg uppercase   ;
     }
     .button{
         @apply rounded-md md:px-8 px-6  md:py-5 py-3   transition-all hover:scale-105 duration-300 md:text-lg text-sm   font-medium;  
@@ -38,5 +38,44 @@
     .footul{
         @apply text-xl space-y-4 cursor-pointer text-[#20484F];
     }
+    .sectionm{
+       @apply bg-[#FAFAFA] container grid grid-cols-12 mx-auto md:gap-5 mt-20;
+    }
+    .sectionl{
+        @apply md:col-span-6 col-span-12 md:ml-8  flex items-center;
+    }
+    .divl{
+        @apply flex flex-col   p-2 md:p-4 border shadow-2xl border-[#D1D3D4] rounded-3xl;
+    }
+    .sectionr{
+        @apply md:col-span-6 col-span-12  md:mr-8 flex items-center;
+    }
+    .divr{
+        @apply flex flex-col items-center  border shadow-2xl border-[#D1D3D4] rounded-3xl;
+    }
+
+    .sectionll{
+        @apply md:col-span-3 col-span-12 rounded-t-2xl   flex items-center;
+    }
+    .divll{
+        @apply flex flex-col   p-2 md:p-4 border-l md:shadow-2xl border-[#D1D3D4] md:rounded-l-3xl md:rounded-r-none rounded-t-3xl pb-5;
+    }
+    .sectionrr{
+        @apply md:col-span-9 col-span-12    flex items-center;
+    }
+    .divrr{
+        @apply bg-white items-center md:shadow-xl border-[#D1D3D4] md:rounded-r-3xl md:rounded-l-none  rounded-b-3xl pb-5;
+    }
+    .cardfont{
+        @apply md:text-xl text-lg md:font-medium font-semibold  ;
+    }
+    .cardf{
+        @apply md:text-xl text-lg md:font-medium font-semibold  ;
+    }
+    .sectionmm{
+        @apply bg-[#FAFAFA] container grid grid-cols-12 mx-auto  mt-20  ;
+     }
+     
+
     
 }
